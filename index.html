@@ -11,7 +11,7 @@
 <script>
   window.onload = function () {
     var timestamp = new Date().getTime()
-    fetch('http://okr-admin.bigbull.xyz/sign').then(res => res.json()).then(res => {
+    fetch('https://okr-admin.bigbull.xyz/sign').then(res => res.json()).then(res => {
       console.log(res)
       var sign = res.signature
       var timestamp = res.timestamp
